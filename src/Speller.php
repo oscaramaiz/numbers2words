@@ -22,6 +22,8 @@ abstract class Speller
 	const CURRENCY_LITHUANIAN_LIT = 'LTL';
 	const CURRENCY_RUSSIAN_ROUBLE = 'RUR';
 	const CURRENCY_US_DOLLAR = 'USD';
+	const CURRENCY_BOLIVAR = 'BS';
+	const CURRENCY_BOLIVAR_FUERTE = 'BsF';
 	
 	private static $languages = array(
 		self::LANGUAGE_ENGLISH    => languages\English::class,
@@ -39,6 +41,8 @@ abstract class Speller
 		self::CURRENCY_LITHUANIAN_LIT,
 		self::CURRENCY_RUSSIAN_ROUBLE,
 		self::CURRENCY_US_DOLLAR,
+		self::CURRENCY_BOLIVAR,
+		self::CURRENCY_BOLIVAR_FUERTE,
 	);
 	
 	protected $minus;
